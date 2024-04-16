@@ -7,18 +7,83 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0563952ACC7057000E0698 /* RestorantCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0563942ACC7057000E0698 /* RestorantCellView.swift */; };
+		4F087C5A2ACD8D71008E2853 /* AnasayfaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F087C592ACD8D71008E2853 /* AnasayfaView.swift */; };
+		4F087C5C2ACD8DB8008E2853 /* SepetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F087C5B2ACD8DB8008E2853 /* SepetView.swift */; };
+		4F087C5E2ACD8DD6008E2853 /* AraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F087C5D2ACD8DD6008E2853 /* AraView.swift */; };
+		4F087C602ACD9179008E2853 /* FavoriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F087C5F2ACD9179008E2853 /* FavoriView.swift */; };
+		4F24BB442AD0639600CB7737 /* IceceklerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F24BB432AD0639600CB7737 /* IceceklerView.swift */; };
+		4F3480AA2ACF4AAF00228061 /* TeklifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3480A92ACF4AAF00228061 /* TeklifCell.swift */; };
+		4F3480AC2ACF4C9500228061 /* TeklifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3480AB2ACF4C9500228061 /* TeklifView.swift */; };
+		4F3480AE2ACF633100228061 /* MenuCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3480AD2ACF633100228061 /* MenuCellView.swift */; };
+		4F4B1D112AD86E770019798F /* AraCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4B1D102AD86E770019798F /* AraCellView.swift */; };
+		4F4DBD682ACDD8C200D60BF3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBD672ACDD8C200D60BF3 /* HeaderView.swift */; };
+		4F4DBD6A2ACDE10900D60BF3 /* kategorimodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBD692ACDE10900D60BF3 /* kategorimodel.swift */; };
+		4F4DBD6D2ACDE14B00D60BF3 /* kategoriviewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBD6C2ACDE14B00D60BF3 /* kategoriviewmodel.swift */; };
+		4F4DBD6F2ACDE73100D60BF3 /* KategoriCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBD6E2ACDE73100D60BF3 /* KategoriCellView.swift */; };
+		4F4DBD712ACDEC4300D60BF3 /* KategoriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4DBD702ACDEC4300D60BF3 /* KategoriView.swift */; };
+		4F515F782AD1F2EC00A42C38 /* sepetmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F515F772AD1F2EC00A42C38 /* sepetmodel.swift */; };
+		4F6DB79F2AD01B1600A33903 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6DB79E2AD01B1600A33903 /* MenuView.swift */; };
 		4F79FA892ACC4DD200F65766 /* FoodCravingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79FA882ACC4DD200F65766 /* FoodCravingsApp.swift */; };
 		4F79FA8B2ACC4DD200F65766 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79FA8A2ACC4DD200F65766 /* ContentView.swift */; };
 		4F79FA8D2ACC4DD300F65766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F79FA8C2ACC4DD300F65766 /* Assets.xcassets */; };
 		4F79FA902ACC4DD300F65766 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F79FA8F2ACC4DD300F65766 /* Preview Assets.xcassets */; };
+		4F79FA992ACC4DEE00F65766 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F79FA982ACC4DEE00F65766 /* model.swift */; };
+		4F85AEBF2AD7FAE400C9C38B /* SiparisVerildiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F85AEBE2AD7FAE400C9C38B /* SiparisVerildiView.swift */; };
+		4F8811DF2ACF30860078C265 /* RestorantDetayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8811DE2ACF30860078C265 /* RestorantDetayCell.swift */; };
+		4F8811E12ACF39BF0078C265 /* teklifmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8811E02ACF39BF0078C265 /* teklifmodel.swift */; };
+		4F9BB37A2AD16F820002EC65 /* GecmisSiparislerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9BB3792AD16F820002EC65 /* GecmisSiparislerView.swift */; };
+		4FC9CDAD2AD5EAC400E8C5D8 /* restorantlar2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FC9CDAC2AD5EAC400E8C5D8 /* restorantlar2.json */; };
+		4FC9CDAF2AD5EFB500E8C5D8 /* IceceklerCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC9CDAE2AD5EFB500E8C5D8 /* IceceklerCellView.swift */; };
+		4FDE6D462AD9BB5F00CEE82C /* SiparisModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE6D442AD9BB5F00CEE82C /* SiparisModel.xcdatamodeld */; };
+		4FE2866D2AD8490B004278AD /* SiparisVerilmediView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE2866C2AD8490B004278AD /* SiparisVerilmediView.swift */; };
+		4FEA95FA2ACE1631008D663C /* RestorantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA95F92ACE1631008D663C /* RestorantView.swift */; };
+		4FFADFF22AD08204008D51AA /* SlidingTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 4FFADFF12AD08204008D51AA /* SlidingTabView */; };
+		4FFADFF42AD08EA7008D51AA /* SepetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFADFF32AD08EA7008D51AA /* SepetCellView.swift */; };
+		4FFADFF62AD09432008D51AA /* sepetviewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFADFF52AD09432008D51AA /* sepetviewmodel.swift */; };
+		4FFADFF82AD0993D008D51AA /* SepetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFADFF72AD0993D008D51AA /* SepetListView.swift */; };
+		4FFB4F652ACEC00500FAE82D /* favorimodelview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFB4F642ACEC00500FAE82D /* favorimodelview.swift */; };
+		4FFB4F672ACECB6A00FAE82D /* FavoriCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFB4F662ACECB6A00FAE82D /* FavoriCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0563942ACC7057000E0698 /* RestorantCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorantCellView.swift; sourceTree = "<group>"; };
+		4F087C592ACD8D71008E2853 /* AnasayfaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaView.swift; sourceTree = "<group>"; };
+		4F087C5B2ACD8DB8008E2853 /* SepetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetView.swift; sourceTree = "<group>"; };
+		4F087C5D2ACD8DD6008E2853 /* AraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AraView.swift; sourceTree = "<group>"; };
+		4F087C5F2ACD9179008E2853 /* FavoriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriView.swift; sourceTree = "<group>"; };
+		4F24BB432AD0639600CB7737 /* IceceklerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceceklerView.swift; sourceTree = "<group>"; };
+		4F3480A92ACF4AAF00228061 /* TeklifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeklifCell.swift; sourceTree = "<group>"; };
+		4F3480AB2ACF4C9500228061 /* TeklifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeklifView.swift; sourceTree = "<group>"; };
+		4F3480AD2ACF633100228061 /* MenuCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCellView.swift; sourceTree = "<group>"; };
+		4F4B1D102AD86E770019798F /* AraCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AraCellView.swift; sourceTree = "<group>"; };
+		4F4DBD672ACDD8C200D60BF3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		4F4DBD692ACDE10900D60BF3 /* kategorimodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kategorimodel.swift; sourceTree = "<group>"; };
+		4F4DBD6C2ACDE14B00D60BF3 /* kategoriviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kategoriviewmodel.swift; sourceTree = "<group>"; };
+		4F4DBD6E2ACDE73100D60BF3 /* KategoriCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriCellView.swift; sourceTree = "<group>"; };
+		4F4DBD702ACDEC4300D60BF3 /* KategoriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriView.swift; sourceTree = "<group>"; };
+		4F515F772AD1F2EC00A42C38 /* sepetmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sepetmodel.swift; sourceTree = "<group>"; };
+		4F6DB79E2AD01B1600A33903 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		4F79FA852ACC4DD200F65766 /* FoodCravings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodCravings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F79FA882ACC4DD200F65766 /* FoodCravingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCravingsApp.swift; sourceTree = "<group>"; };
 		4F79FA8A2ACC4DD200F65766 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F79FA8C2ACC4DD300F65766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F79FA8F2ACC4DD300F65766 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F79FA982ACC4DEE00F65766 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		4F85AEBE2AD7FAE400C9C38B /* SiparisVerildiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparisVerildiView.swift; sourceTree = "<group>"; };
+		4F8811DE2ACF30860078C265 /* RestorantDetayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorantDetayCell.swift; sourceTree = "<group>"; };
+		4F8811E02ACF39BF0078C265 /* teklifmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teklifmodel.swift; sourceTree = "<group>"; };
+		4F9BB3792AD16F820002EC65 /* GecmisSiparislerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GecmisSiparislerView.swift; sourceTree = "<group>"; };
+		4FC9CDAC2AD5EAC400E8C5D8 /* restorantlar2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restorantlar2.json; sourceTree = "<group>"; };
+		4FC9CDAE2AD5EFB500E8C5D8 /* IceceklerCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceceklerCellView.swift; sourceTree = "<group>"; };
+		4FDE6D452AD9BB5F00CEE82C /* SiparisModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SiparisModel.xcdatamodel; sourceTree = "<group>"; };
+		4FE2866C2AD8490B004278AD /* SiparisVerilmediView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiparisVerilmediView.swift; sourceTree = "<group>"; };
+		4FEA95F92ACE1631008D663C /* RestorantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestorantView.swift; sourceTree = "<group>"; };
+		4FFADFF32AD08EA7008D51AA /* SepetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetCellView.swift; sourceTree = "<group>"; };
+		4FFADFF52AD09432008D51AA /* sepetviewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sepetviewmodel.swift; sourceTree = "<group>"; };
+		4FFADFF72AD0993D008D51AA /* SepetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SepetListView.swift; sourceTree = "<group>"; };
+		4FFB4F642ACEC00500FAE82D /* favorimodelview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favorimodelview.swift; sourceTree = "<group>"; };
+		4FFB4F662ACECB6A00FAE82D /* FavoriCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +91,73 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFADFF22AD08204008D51AA /* SlidingTabView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F087C562ACD8D2B008E2853 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F79FA982ACC4DEE00F65766 /* model.swift */,
+				4F4DBD692ACDE10900D60BF3 /* kategorimodel.swift */,
+				4F8811E02ACF39BF0078C265 /* teklifmodel.swift */,
+				4F515F772AD1F2EC00A42C38 /* sepetmodel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F087C572ACD8D30008E2853 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F79FA8A2ACC4DD200F65766 /* ContentView.swift */,
+				4F087C592ACD8D71008E2853 /* AnasayfaView.swift */,
+				4F087C5B2ACD8DB8008E2853 /* SepetView.swift */,
+				4F087C5D2ACD8DD6008E2853 /* AraView.swift */,
+				4F087C5F2ACD9179008E2853 /* FavoriView.swift */,
+				4F4B1D102AD86E770019798F /* AraCellView.swift */,
+				4F4DBD672ACDD8C200D60BF3 /* HeaderView.swift */,
+				4F4DBD6E2ACDE73100D60BF3 /* KategoriCellView.swift */,
+				4F4DBD702ACDEC4300D60BF3 /* KategoriView.swift */,
+				4F0563942ACC7057000E0698 /* RestorantCellView.swift */,
+				4FEA95F92ACE1631008D663C /* RestorantView.swift */,
+				4FFB4F662ACECB6A00FAE82D /* FavoriCellView.swift */,
+				4F8811DE2ACF30860078C265 /* RestorantDetayCell.swift */,
+				4F3480A92ACF4AAF00228061 /* TeklifCell.swift */,
+				4F3480AB2ACF4C9500228061 /* TeklifView.swift */,
+				4F3480AD2ACF633100228061 /* MenuCellView.swift */,
+				4F6DB79E2AD01B1600A33903 /* MenuView.swift */,
+				4FC9CDAE2AD5EFB500E8C5D8 /* IceceklerCellView.swift */,
+				4F24BB432AD0639600CB7737 /* IceceklerView.swift */,
+				4FFADFF32AD08EA7008D51AA /* SepetCellView.swift */,
+				4FFADFF72AD0993D008D51AA /* SepetListView.swift */,
+				4F9BB3792AD16F820002EC65 /* GecmisSiparislerView.swift */,
+				4F85AEBE2AD7FAE400C9C38B /* SiparisVerildiView.swift */,
+				4FE2866C2AD8490B004278AD /* SiparisVerilmediView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F087C582ACD8D41008E2853 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4FC9CDAC2AD5EAC400E8C5D8 /* restorantlar2.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		4F4DBD6B2ACDE13100D60BF3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F4DBD6C2ACDE14B00D60BF3 /* kategoriviewmodel.swift */,
+				4FFB4F642ACEC00500FAE82D /* favorimodelview.swift */,
+				4FFADFF52AD09432008D51AA /* sepetviewmodel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		4F79FA7C2ACC4DD200F65766 = {
 			isa = PBXGroup;
 			children = (
@@ -52,9 +178,13 @@
 			isa = PBXGroup;
 			children = (
 				4F79FA882ACC4DD200F65766 /* FoodCravingsApp.swift */,
-				4F79FA8A2ACC4DD200F65766 /* ContentView.swift */,
+				4F087C572ACD8D30008E2853 /* View */,
+				4F087C582ACD8D41008E2853 /* Data */,
+				4F4DBD6B2ACDE13100D60BF3 /* ViewModel */,
+				4F087C562ACD8D2B008E2853 /* Model */,
 				4F79FA8C2ACC4DD300F65766 /* Assets.xcassets */,
 				4F79FA8E2ACC4DD300F65766 /* Preview Content */,
+				4FDE6D442AD9BB5F00CEE82C /* SiparisModel.xcdatamodeld */,
 			);
 			path = FoodCravings;
 			sourceTree = "<group>";
@@ -83,6 +213,9 @@
 			dependencies = (
 			);
 			name = FoodCravings;
+			packageProductDependencies = (
+				4FFADFF12AD08204008D51AA /* SlidingTabView */,
+			);
 			productName = FoodCravings;
 			productReference = 4F79FA852ACC4DD200F65766 /* FoodCravings.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +244,9 @@
 				Base,
 			);
 			mainGroup = 4F79FA7C2ACC4DD200F65766;
+			packageReferences = (
+				4FFADFF02AD08203008D51AA /* XCRemoteSwiftPackageReference "SlidingTabView" */,
+			);
 			productRefGroup = 4F79FA862ACC4DD200F65766 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F79FA902ACC4DD300F65766 /* Preview Assets.xcassets in Resources */,
+				4FC9CDAD2AD5EAC400E8C5D8 /* restorantlar2.json in Resources */,
 				4F79FA8D2ACC4DD300F65766 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +274,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F24BB442AD0639600CB7737 /* IceceklerView.swift in Sources */,
+				4FFB4F652ACEC00500FAE82D /* favorimodelview.swift in Sources */,
+				4F3480AC2ACF4C9500228061 /* TeklifView.swift in Sources */,
+				4FFB4F672ACECB6A00FAE82D /* FavoriCellView.swift in Sources */,
+				4F087C5C2ACD8DB8008E2853 /* SepetView.swift in Sources */,
+				4FEA95FA2ACE1631008D663C /* RestorantView.swift in Sources */,
+				4F3480AA2ACF4AAF00228061 /* TeklifCell.swift in Sources */,
+				4F4DBD682ACDD8C200D60BF3 /* HeaderView.swift in Sources */,
+				4F85AEBF2AD7FAE400C9C38B /* SiparisVerildiView.swift in Sources */,
+				4F6DB79F2AD01B1600A33903 /* MenuView.swift in Sources */,
+				4F515F782AD1F2EC00A42C38 /* sepetmodel.swift in Sources */,
 				4F79FA8B2ACC4DD200F65766 /* ContentView.swift in Sources */,
+				4F4B1D112AD86E770019798F /* AraCellView.swift in Sources */,
+				4F79FA992ACC4DEE00F65766 /* model.swift in Sources */,
+				4F087C5E2ACD8DD6008E2853 /* AraView.swift in Sources */,
+				4F4DBD6A2ACDE10900D60BF3 /* kategorimodel.swift in Sources */,
+				4F8811DF2ACF30860078C265 /* RestorantDetayCell.swift in Sources */,
+				4FE2866D2AD8490B004278AD /* SiparisVerilmediView.swift in Sources */,
+				4F8811E12ACF39BF0078C265 /* teklifmodel.swift in Sources */,
+				4F4DBD6D2ACDE14B00D60BF3 /* kategoriviewmodel.swift in Sources */,
 				4F79FA892ACC4DD200F65766 /* FoodCravingsApp.swift in Sources */,
+				4F087C602ACD9179008E2853 /* FavoriView.swift in Sources */,
+				4FDE6D462AD9BB5F00CEE82C /* SiparisModel.xcdatamodeld in Sources */,
+				4FFADFF42AD08EA7008D51AA /* SepetCellView.swift in Sources */,
+				4F087C5A2ACD8D71008E2853 /* AnasayfaView.swift in Sources */,
+				4F9BB37A2AD16F820002EC65 /* GecmisSiparislerView.swift in Sources */,
+				4FFADFF82AD0993D008D51AA /* SepetListView.swift in Sources */,
+				4FC9CDAF2AD5EFB500E8C5D8 /* IceceklerCellView.swift in Sources */,
+				4F4DBD6F2ACDE73100D60BF3 /* KategoriCellView.swift in Sources */,
+				4F3480AE2ACF633100228061 /* MenuCellView.swift in Sources */,
+				4F0563952ACC7057000E0698 /* RestorantCellView.swift in Sources */,
+				4F4DBD712ACDEC4300D60BF3 /* KategoriView.swift in Sources */,
+				4FFADFF62AD09432008D51AA /* sepetviewmodel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +507,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4FFADFF02AD08203008D51AA /* XCRemoteSwiftPackageReference "SlidingTabView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QuynhNguyen/SlidingTabView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4FFADFF12AD08204008D51AA /* SlidingTabView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4FFADFF02AD08203008D51AA /* XCRemoteSwiftPackageReference "SlidingTabView" */;
+			productName = SlidingTabView;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		4FDE6D442AD9BB5F00CEE82C /* SiparisModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4FDE6D452AD9BB5F00CEE82C /* SiparisModel.xcdatamodel */,
+			);
+			currentVersion = 4FDE6D452AD9BB5F00CEE82C /* SiparisModel.xcdatamodel */;
+			path = SiparisModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4F79FA7D2ACC4DD200F65766 /* Project object */;
 }
